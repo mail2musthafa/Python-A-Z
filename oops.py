@@ -146,7 +146,24 @@ a = Employee('Rahul', 886012, 200000, "Intern")
 # its instance
 a.display()
 a.details()
+#self and constructer  
+# self is refernce variabe  which is always pointing to current object 
 
+class Test:
+    def __init__(self):
+        print('address of object pointed by self',id(self))
+
+t = Test()    
+print(t)
+print('addres of object pointed by t',id(t))
+#--------------------------------
+class Test:
+    def __init__(self):
+        print('constructer ')
+    def m1(self,x):
+        print('x value ',x)    
+t  = Test()     
+t.m1(10)   
 
 
 #369380139351  
