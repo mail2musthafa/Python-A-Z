@@ -69,7 +69,7 @@ class Dog:
 german_shappord = Dog('German Shappord')   
 print(german_shappord.name)
 print(tommy.name)
-#print()
+#print() 
 #-------------------------------------
 class Dog:
  
@@ -167,8 +167,63 @@ t.m1(10)
 
 
 #369380139351  
+ ####################################################################   
+
+# In python,object-orirented  programming(OOPS)is a programming paradigm 
+# that uses objects and clasess in programming,it aims to implement real -world entities like inheritence 
+# polmorphisms,encapsualtion etc 
+#Class
+# Obejects
+# Polymophism
+# encapasualtion 
+#inheritance 
+# Data Abstraction 
+
+class Dog:
+    print('welcome dog object created successfully')
+# creating Dog class object
+dog_object =Dog()
+print(dog_object)
+#---------------------------------------
+class Dog():
+    #class level attributes 
+    attr1 = "mammal"
+    #instance attribute
+    def __int__(self,name):
+        self.name = name
+
+#object instantiation        
+Rodger = Dog('Rodger')
+Tommy  = Dog('Tommy') 
+#accessing the class level attributes 
+print('rodger is a {}'.format(Rodger.__class__.attr1))
+
+class Dog:
+ 
+    # class attribute
+    attr1 = "mammal"
+ 
+    # Instance attribute
+    def __init__(self, name):
+        self.name = name
+ 
+# Driver codedfghjkl;
+# Object instantiation
+Rodger = Dog("Rodger")
+Tommy = Dog("Tommy")
+ 
+# Accessing class attributes
+print("Rodger is a {}".format(Rodger.__class__.attr1))
+print("Tommy is also a {}".format(Tommy.__class__.attr1))
+ 
+# Accessing instance attributes
+print("My name is {}".format(Rodger.name))
+print("My name is {}".format(Tommy.name))
+
+
+
     
-    
+ 
 
 
 
